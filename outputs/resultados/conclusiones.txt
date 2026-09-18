@@ -1,0 +1,54 @@
+
+INFORME FINAL: PROCESAMIENTO Y ANÁLISIS DE DATOS DEL TITANIC
+
+
+1. RESUMEN DE LIMPIEZA Y TRANSFORMACIÓN DE DATOS
+
+- Registros analizados: 891 filas, 12 columnas iniciales.
+- Registros duplicados detectados: 0.
+- Imputación de nulos realizada:
+    * Age: Se imputó con la mediana (28.0 años) para evitar distorsión por valores extremos.
+    * Embarked: Se imputó con la moda ('S'), correspondiente al puerto con más abordajes.
+    * Cabin: Se rellenó con la categoría 'Desconocido' (687 faltantes, ~77% del total).
+- Nuevas variables creadas:
+    * FamilySize: Suma de SibSp + Parch + 1 (mismo pasajero).
+    * IsAlone: Indicador binario (1 = Pasajero viajaba solo, 0 = Acompañado).
+    * AgeGroup: Categorización por rangos [Niño, Joven, Adulto, Adulto mayor].
+
+
+2.- RESPUESTAS A LAS 6 PREGUNTAS DEL ANÁLISIS
+
+[1] ¿Qué porcentaje de pasajeros sobrevivió?
+    R/ Sobrevivió el 38.38% de la muestra (342 de 891 pasajeros).
+
+[2] ¿Cómo cambia la supervivencia entre hombres y mujeres?
+    R/ Las mujeres tuvieron una tasa de supervivencia del 74.20%, 
+       mientras que los hombres alcanzaron solo el 18.89%.
+
+[3] ¿Cómo cambia la supervivencia según la clase del pasajero?
+    R/ 1ª Clase: 62.96% de supervivencia.
+       2ª Clase: 47.28% de supervivencia.
+       3ª Clase: 24.24% de supervivencia.
+
+[4] ¿Qué grupos de edad presentan mayor supervivencia?
+    R/ Los niños registraron la mayor supervivencia con un 57.35%, 
+       seguidos de jóvenes (48.89%), adultos (36.44%) 
+       y adultos mayores (26.92%).
+
+[5] ¿Viajar solo o acompañado parece estar relacionado con la supervivencia?
+    R/ Sí. Pasajeros acompañados sobrevivieron en un 50.56%, 
+       frente a un 30.35% de los que viajaban solos.
+
+[6] ¿Existe alguna relación entre la tarifa pagada y la supervivencia?
+    R/ Sí. La tarifa media pagada por los supervivientes fue de $48.40, 
+       frente a $22.12 pagados por quienes fallecieron.
+
+
+3.- CONCLUSIONES Y RECOMENDACIONES TÉCNICAS
+
+- Protocolo Social: El principio "mujeres y niños primero" se refleja claramente en los datos 
+  con las tasas más altas de supervivencia asociadas a dichos grupos demográficos.
+- Brecha Socioeconómica: La ubicación en el barco y la prioridad de acceso a los botes salvavidas 
+  favorecieron a las clases más altas (1ª y 2ª clase) y con tarifas más elevadas.
+- Red de Apoyo: Viajar con familiares o acompañantes incrementó en más de 20 puntos porcentuales 
+  las probabilidades de supervivencia en comparación con viajar solo.
