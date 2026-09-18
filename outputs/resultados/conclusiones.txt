@@ -19,28 +19,28 @@ INFORME FINAL: PROCESAMIENTO Y ANÁLISIS DE DATOS DEL TITANIC
 2.- RESPUESTAS A LAS 6 PREGUNTAS DEL ANÁLISIS
 
 [1] ¿Qué porcentaje de pasajeros sobrevivió?
-    R/ Sobrevivió el 38.38% de la muestra (342 de 891 pasajeros).
+    R.- Sobrevivió el 38.38% de la muestra (342 de 891 pasajeros).
 
 [2] ¿Cómo cambia la supervivencia entre hombres y mujeres?
-    R/ Las mujeres tuvieron una tasa de supervivencia del 74.20%, 
+    R.- Las mujeres tuvieron una tasa de supervivencia del 74.20%, 
        mientras que los hombres alcanzaron solo el 18.89%.
 
 [3] ¿Cómo cambia la supervivencia según la clase del pasajero?
-    R/ 1ª Clase: 62.96% de supervivencia.
+    R.- 1ª Clase: 62.96% de supervivencia.
        2ª Clase: 47.28% de supervivencia.
        3ª Clase: 24.24% de supervivencia.
 
 [4] ¿Qué grupos de edad presentan mayor supervivencia?
-    R/ Los niños registraron la mayor supervivencia con un 57.35%, 
+    R.- Los niños registraron la mayor supervivencia con un 57.35%, 
        seguidos de jóvenes (48.89%), adultos (36.44%) 
        y adultos mayores (26.92%).
 
 [5] ¿Viajar solo o acompañado parece estar relacionado con la supervivencia?
-    R/ Sí. Pasajeros acompañados sobrevivieron en un 50.56%, 
+    R.- Sí. Pasajeros acompañados sobrevivieron en un 50.56%, 
        frente a un 30.35% de los que viajaban solos.
 
 [6] ¿Existe alguna relación entre la tarifa pagada y la supervivencia?
-    R/ Sí. La tarifa media pagada por los supervivientes fue de $48.40, 
+    R.- Sí. La tarifa media pagada por los supervivientes fue de $48.40, 
        frente a $22.12 pagados por quienes fallecieron.
 
 
