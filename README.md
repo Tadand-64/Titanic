@@ -283,7 +283,7 @@ pip install -r requirements.txt
 Para ejecutar el análisis:
 
 ```bash
-python src/analysis.py
+jupyter notebook src/analysis.ipynb
 ```
 
 El programa utiliza:
@@ -309,7 +309,7 @@ outputs/resultados/
 │   └── 📄 train.csv
 │
 ├── 📂 src
-│   └── 🐍 analysis.py
+│   └── 📓 analysis.ipynb
 │
 ├── 📂 outputs
 │   └── 📂 resultados
@@ -321,6 +321,7 @@ outputs/resultados/
 │       ├── 📊 6_supervivencia_tarifa.png
 │       └── 📝 conclusiones.txt
 │
+├── 📄 .gitignore
 ├── 📄 requirements.txt
 └── 📄 README.md
 ```
